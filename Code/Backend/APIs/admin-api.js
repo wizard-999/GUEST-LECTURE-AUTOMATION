@@ -9,6 +9,8 @@ require("dotenv").config();
 let adminscollection;
 
 // Get adminscollection from app
+//app
+let x;
 adminApp.use((req, res, next) => {
   adminscollection = req.app.get("adminscollection");
   next();
