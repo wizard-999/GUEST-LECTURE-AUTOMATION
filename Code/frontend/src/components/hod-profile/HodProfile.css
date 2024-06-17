@@ -1,0 +1,37 @@
+/* src/components/hod-profile/HodProfile.css */
+
+.hod-profile {
+  padding: 20px;
+}
+
+.hod-profile h2 {
+  color: #333;
+}
+
+.hod-profile .request-list {
+  margin-top: 20px;
+}
+
+.hod-profile .request-list .request {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.hod-profile .actions {
+  margin-top: 20px;
+}
+
+.hod-profile .actions button {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.hod-profile .actions button:hover {
+  background-color: #555;
+}

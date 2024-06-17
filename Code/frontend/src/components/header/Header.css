@@ -1,0 +1,23 @@
+/* src/components/header/Header.css */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+header a:hover {
+  background-color: #555;
+}

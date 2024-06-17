@@ -1,0 +1,16 @@
+/* src/components/dashboard/Dashboard.css */
+
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard h2 {
+  color: #333;
+}
+
+.dashboard .card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
